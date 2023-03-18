@@ -1,0 +1,321 @@
+body{
+    background: black;
+}
+#home-section{
+    height: 760px;
+    background: linear-gradient(90deg,black 70%,#7DB9B6 30%);
+    padding: 3% 5%;
+    padding-top:1%;
+}
+
+/* navbar */
+.navbar-brand{
+    color: #7DB9B6;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-right: 100px;
+
+}
+.navbar-brand:hover{
+    color: #29dad1;
+}
+
+.nav-item .nav-link{
+    margin: 0px 20px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img-div{
+    position: relative;
+    top: 75px;
+    right: 210px;
+    width: 750px;
+}
+
+
+.name-greeting{
+    color:white;
+    padding-top: 200px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 4rem;
+    letter-spacing: 2px ;
+}
+
+.name-text{
+    color: #7DB9B6;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    letter-spacing: 2px ;
+    font-weight: bold;
+
+}
+
+.changecontent::after{
+    content: ' ';
+    color: #7DB9B6;
+    font-weight: lighter;
+    font-size: 40px;
+    animation: changetext 7s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Islamic Scholar";}
+    50%{content: "Influencer";}
+    100%{content: "Youtuber";}
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+@media(max-width:768px) {
+    #home-section{
+        background:black ;
+        height: 100%;
+    }
+    .img-div{
+        width: 650px;
+        top:10px;
+        right:300px
+    }
+
+    .name-greeting{
+        padding-top: 100px;
+        font-size: 3rem;
+    }
+    .name-text{
+        font-size: 3.5rem;
+    }
+}
+
+
+
+/* About section */
+/* about */
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#about .card img{
+    background-color: #7DB9B6;
+    border: 2px solid black;
+}
+#about h3{
+    color: white;
+    border-bottom: 2px solid #7DB9B6;
+    width: 150px;
+}
+#about h5{
+    color: white;
+}
+#about p{
+    color: white;
+    font-size: 15px;
+}
+#about h2{
+    color: white;
+    font-size: 17px;
+}
+#about h2 span{
+    font-size: 15px;
+    color: #7DB9B6;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media screen and (max-width:987px){
+    #about p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:767px){
+    #about{
+        height: 150vh;
+    }
+    #about p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:500px){
+    #about{
+        height: 120vh;
+    }
+}
+/* about */
+
+/* Youtube Section */
+#youtube-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    padding: 3% 5%;
+}
+
+#youtube-section .main-heading{
+    color: white;
+    border-bottom: 2px solid #7DB9B6;
+    display: inline-block;
+    width: 260px;
+}
+
+.youtube-icon:hover{
+color: red;
+}
+#youtube-section a{
+    color: white;
+}
+
+.vedio{
+    margin-top: 100px;
+}
+
+@media screen and (max-width:989px){
+    #youtube-section{
+        height:1000px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:767px){
+    #youtube-section{
+        height:1200px;
+
+    }
+    .subscribe-button{
+        margin-top: 20px;
+    }
+}
+.subscribe{
+    color: white;
+}
+
+.bell-icon{
+    color: red;
+}
+
+
+/* Instagram Section */
+
+#instagram{
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+    align-items: center;
+    padding: 3% 5%;
+}
+#instagram .main-heading{
+    color: white;
+    border-bottom: 2px solid #7DB9B6;
+    display: inline-block;
+    width: 230px;
+    margin-bottom: 50px;
+}
+
+.instagram-icon{
+    color: white;
+}
+.instagram-icon:hover{
+    color: purple;
+}
+
+.crousel-container{
+    text-align: center;
+}
+.instagram-media{
+    max-width: 100px;
+}
+
+.follow{
+    margin-top: 30px;
+    color: white;
+}
+
+@media screen and (max-width:767px){
+    #instagram{
+        text-align: center;
+    }
+}
+
+
+/* Twitter Section */
+
+#twitter-section{
+    width: 100%;
+    height: 230vh;
+    background-color: black;
+    align-items: center;
+    padding: 3% 5%;
+}
+#twitter-section .main-heading{
+    color: white;
+    border-bottom: 2px solid #7DB9B6;
+    display: inline-block;
+    width: 240px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:989px){
+    #twitter-section{
+        height:3600px;
+        text-align: center;
+    }
+    #instagram{
+        text-align: center;
+    }
+}
+/* .card-element{ */
+/* } */
+
+/* footer section */
+#footer-section{
+    width: 100%;
+    height: 50vh;
+    background-color: #7DB9B6;
+    align-items: center;
+    padding: 3% 5%; 
+}
+#footer-section .main-heading{
+    color: white;
+    text-align: center;
+}
+#footer-section .footer-description{
+    margin-top:30px;
+    color: white;
+
+}
+
+#footer-section .footer-copyright{
+    color:white;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#footer-section .footer-icons-section{
+    padding:30px;
+    text-align: center;
+}
+
+#footer-section .footer-icons{
+    padding:0px 30px;
+    color: white;
+}
+
+@media screen and (max-width:989px ){
+    #footer-section{
+        height: 53vh;
+    }
+    #footer-section .footer-icons{
+        padding:10px 30px;;
+    }
+}
+@media screen and (min-width:410px){
+    #footer-section{
+        height: 50vh;
+    }
+}
+
+
