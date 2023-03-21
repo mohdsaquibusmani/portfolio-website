@@ -1,6 +1,6 @@
 body{
     background: black;
-    position :fixed;
+    position :absolute;
 }
 #home-section{
     height: 760px;
