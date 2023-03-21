@@ -1,5 +1,6 @@
 body{
     background: black;
+    overflow:auto
 }
 #home-section{
     height: 760px;
