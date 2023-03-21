@@ -313,7 +313,7 @@ color: red;
         padding:10px 30px;;
     }
 }
-@media screen and (min-width:500px){
+@media screen and (max-width:500px){
     #footer-section{
         height: 55vh;
     }
